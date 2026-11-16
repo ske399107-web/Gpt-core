@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <title>Log in — GPT Core</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="login-page">
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header login-header"><a class="brand" href="index.html"><span class="brand-mark"><span></span><span></span><span></span></span><span>GPT<span class="brand-light">CORE</span></span></a><a class="back-home" href="index.html">← Back to home</a></header>
+  <main class="login-layout">
+    <section class="login-story"><div class="eyebrow"><span class="pulse-dot"></span> YOUR IDEAS, IN GOOD COMPANY</div><h1>A little space<br>for <span class="gradient-text">big thinking.</span></h1><p>Pick up where curiosity takes you. Your next great idea is closer than you think.</p><div class="story-art"><div class="story-ring ring-one"></div><div class="story-ring ring-two"></div><div class="story-core"><span>✳</span></div><div class="story-note note-one">THINK <b>✦</b></div><div class="story-note note-two">CREATE <b>↗</b></div><div class="story-note note-three">EXPLORE <b>⌁</b></div></div><div class="story-foot"><span>✦</span> A clearer way to move ideas forward.</div></section>
+    <section class="login-card-wrap"><div class="login-card"><a class="brand card-brand" href="index.html"><span class="brand-mark"><span></span><span></span><span></span></span><span>GPT<span class="brand-light">CORE</span></span></a><div class="login-title"><h2>Welcome back</h2><p>Sign in to continue to your workspace.</p></div>
+      <form id="login-form" novalidate>
+        <label for="email">Email address</label><div class="input-wrap"><span>✉</span><input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required></div>
+        <div class="password-label"><label for="password">Password</label><a href="#" id="forgot-link">Forgot password?</a></div><div class="input-wrap"><span>♙</span><input id="password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" required><button class="toggle-password" type="button" aria-label="Show password">◉</button></div>
+        <div class="form-message" id="form-message" role="status" aria-live="polite"></div>
+        <button class="button button-primary login-submit" type="submit">Sign in <span>↗</span></button>
+      </form>
+      <div class="login-divider"><span></span> OR CONTINUE WITH <span></span></div>
+      <div class="social-buttons"><button type="button" class="social-button" data-provider="Google"><b class="google-g">G</b> Google</button><button type="button" class="social-button" data-provider="GitHub"><b class="github-mark">⌘</b> GitHub</button></div>
+      <p class="signup-note">New to GPT Core? <a href="#" id="signup-link">Create an account</a></p><p class="legal-note">By continuing, you agree to our <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</p>
+    </div><div class="login-secure"><span>◈</span> Your workspace, your pace.</div></section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
